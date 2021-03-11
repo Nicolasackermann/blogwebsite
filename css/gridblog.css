@@ -1,0 +1,26 @@
+.container{
+    display:grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-areas:
+            "nv nv nv"
+            "hd hd hd "
+            "st st as"
+            "ft ft ft ";
+    border: 2px solid yellow;
+}
+.nav {
+    grid-area: nv;
+}
+.header{
+    grid-area:hd;
+}
+.section{
+    grid-area:st;
+}
+.aside{
+    grid-area:as;
+}
+.footer{
+    grid-area:ft;
+}
